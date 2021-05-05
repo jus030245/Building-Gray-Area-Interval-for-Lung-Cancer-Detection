@@ -1,8 +1,7 @@
 # Building-Gray-Area-Interval-for-Lung-Cancer-Detection
 This is not an open source project, and hence the data will not be provided. The data are collected in the laboratory where they apply a new biotech product on
 artificial mutated cells. These cells are thought to be related to Lung Cancer. Hence, by assuring the quality control of the product and acquiring the mutation
-index measured by such product, we can then observe some of the interesting insights throuhg exploratory data analysis and construct models for predicting lung cancer from medical data. Lastly, several methods are propose to estimate the gray-area
-of the reaction of such product. If the index fall in this range, it means that the diagnosis is ambiguous and other inspections should be taken.
+index measured by such product, we can then observe some of the interesting insights throuhg exploratory data analysis and construct models for predicting lung cancer from medical data. Lastly, several methods are proposed to estimate the gray-area of the numerical reaction of such product. If the index fall in this range, it means that the diagnosis is ambiguous and other inspections should be taken.
 
 Problem:
 1.Test whether the quality of the product is stable.
