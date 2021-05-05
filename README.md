@@ -9,11 +9,9 @@ Problem:
 
 Conclusion:
 1.The product is proved stable under both parametric and nonparametric statistical tests.
-2.The variance of the performance between the cells and within the cells are extremely large. Though obvious pattern shown in most data, it is still risky to 
+2.The variance of the performance between the cells and within the cells are extremely large. Though obvious pattern shows in most data, it is still risky to 
 allow any False-Positive prediction in medical data.
 3.The lower bound of the gray-area is rather easy to estimate throughout the whole project.
-4.However, the upper bound is controversial. Instead of opting for max(x) (Wide gray area, low False-Positive) or machine learning and statistical modeling (accurate but strict),
-we proposed methods with logistic regression and bootstrapping embodied to simulate a sampling distribution of 50/50 lung cancer. In such case, the methoud is robust
-throughout different cells and time.
+4.However, the upper bound is debatable. Instead of opting for max(x) (Wide gray area, low False-Positive) or pure machine learning and statistical modeling (accurate but strict), we proposed methods with logistic regression and bootstrapping embodied to simulate a sampling distribution of 50/50 lung cancer probability. In such case, the methoud is tested robust throughout different cells and time.
 5.Given the fact that the product can be produced cost-efficient in the future, the gray-area can be somehow relaxed to allow larger ambiguity but lower False-Positive conclustion.
-If the index fall in this robust gray-area, the patient will be then asked to take the test again or other medical action would be taken to investigate such case.
+If the index fall in this gray-area, the patient will be then asked to take the test again or other medical action would be taken to investigate such case.
